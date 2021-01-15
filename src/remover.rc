@@ -1,0 +1,16 @@
+#include "menu.h"
+
+MAIN_ICON ICON "main.ico"
+
+Menu MENU
+BEGIN
+	POPUP "&Menú"
+		BEGIN
+			MENUITEM "&Salir", CM_SALIR
+		END
+		POPUP "Ayuda"
+            BEGIN
+                MENUITEM "&Créditos", CM_CREDITOS
+                MENUITEM "&Licencia", CM_LICENCIA
+            END
+END
